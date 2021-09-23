@@ -1,0 +1,25 @@
+{
+  "name": "app_center",
+  "version": "1.0.0",
+  "description": "AppCenter test task",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.mjs",
+    "debug": "node --inspect-brk index.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GenGod/app_center.git"
+  },
+  "author": "Bogdan Vetrenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GenGod/app_center/issues"
+  },
+  "homepage": "https://github.com/GenGod/app_center#readme",
+  "dependencies": {
+    "node-fetch": "^3.0.0",
+    "request": "^2.88.2"
+  }
+}
